@@ -42,7 +42,6 @@ Including recreating more than 22 functions from libc standard library and a cou
 | Return value |The substring. |
 |              |NULL if the allocation fails. |
 | External functs |malloc |
-| Description |Allocates (with malloc(3)) and returns a substring
-from the string ’s’.
+| Description |Allocates (with malloc(3)) and returns a substring\from the string ’s’.
 The substring begins at index ’start’ and is of
 maximum size ’len’. |
