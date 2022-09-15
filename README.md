@@ -40,3 +40,13 @@ Including recreating more than 22 functions from libc standard library and a cou
 |Return value|The substring.<br />NULL if the allocation fails.|
 |External functs|malloc|
 |Description|Allocates (with malloc(3)) and returns a substring\from the string ’s’.<br />The substring begins at index ’start’ and is of maximum size ’len’.|
+
+|Function name|ft_strjoin|
+|:-----------:|:---------|
+|Prototype|char *ft_strjoin(char const *s1, char const *s2);|
+|Parameters|s1: The prefix string.<br />s2: The suffix string.|
+|Return value|The new string.<br />NULL if the allocation fails.|
+|External functs|malloc|
+|Description|Allocates (with malloc(3)) and returns a new string,<br />which is the result of the concatenation of ’s1’ and ’s2’.|
+
+
