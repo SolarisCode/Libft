@@ -119,7 +119,7 @@ Including recreating more than 22 functions from libc standard library and a cou
 |Parameters|n: The integer to output.<br />fd: The file descriptor on which to write.|
 |Return value|None|
 |External functs|write|
-|Description Outputs the integer ’n’ to the given file descriptor.|
+|Description|Outputs the integer ’n’ to the given file descriptor.|
 
 ## The functions that get complied when you use the bonus rule in the Makefile
 
@@ -195,4 +195,25 @@ Including recreating more than 22 functions from libc standard library and a cou
 |External functs|malloc, free|
 |Description|Iterates the list ’lst’ and applies the function<br />’f’ on the content of each node. Creates a new<br />list resulting of the successive applications of<br />the function ’f’. The ’del’ function is used to<br />delete the content of a node if needed.|
 
+## How to install:
 
+clone the repository in the desired directory.
+```shell
+git clone https://github.com/SolarisCode/Libft.git
+```
+Then use `make` inside the pervious directory either with `all` or `bonus` rule if
+you want to use the bonus functions.
+```shell
+make all
+```
+>or
+```shell
+make bonus
+```
+The pervious command will result in the static library file `libft.a` 
+and you can include it with the header file `libft.h` while you complie
+your own programs like below:
+```shell
+gcc main.c -L"the directory that has the library" -I"the directory that has the include file" -lft
+```
+Feel free to contact me if you an better way to implement any of the above functions :)
