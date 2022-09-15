@@ -216,4 +216,4 @@ your own programs like below:
 ```shell
 gcc main.c -L"the directory that has the library" -I"the directory that has the include file" -lft
 ```
-Feel free to contact me if you an better way to implement any of the above functions :)
+Feel free to contact me if you have a better way to implement any of the above functions :)
